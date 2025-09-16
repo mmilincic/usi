@@ -23,16 +23,17 @@ return new class extends Migration {
             $table->bigInteger('let_id');
 
             $table
-                ->foreign('korisnik_id')
-                ->references('korisnik_id')
-                ->on('Korisnik')
-                ->onDelete('cascade')
-                ->onUpdate('cascade');
-
-            $table
                 ->foreign('let_id')
                 ->references('let_id')
                 ->on('Let')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
+
+
+            $table
+                ->foreign('korisnik_id')
+                ->references('korisnik_id')
+                ->on('Korisnik')
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
         });

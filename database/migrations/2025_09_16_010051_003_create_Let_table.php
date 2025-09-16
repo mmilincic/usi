@@ -22,9 +22,9 @@ return new class extends Migration {
 
             $table->dateTime('vreme_sletanja')->nullable();
 
-            $table->bigInteger('grad_sletanja');
+            $table->bigInteger('grad_sletanja')->unsigned();
 
-            $table->bigInteger('grad_poletanja');
+            $table->bigInteger('grad_poletanja')->unsigned();
 
             $table
                 ->foreign('grad_sletanja')

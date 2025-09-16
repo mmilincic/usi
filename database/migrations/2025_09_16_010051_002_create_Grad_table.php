@@ -20,7 +20,7 @@ return new class extends Migration {
 
             $table->char('naziv');
 
-            $table->bigInteger('drzava_id')->nullable();
+            $table->bigInteger('drzava_id')->unsigned();
 
             $table->bigInteger('hotel_id')->unsigned();
 
@@ -29,9 +29,7 @@ return new class extends Migration {
             $table
                 ->foreign('drzava_id')
                 ->references('drzava_id')
-                ->on('Drzava')
-                ->onDelete('cascade')
-                ->onUpdate('cascade');
+                ->on('Drzava');
         });
     }
 
