@@ -7,7 +7,7 @@ Route::view('flexible', 'flexible');
 Route::view('settings', 'settings');
 Route::view('cardinfo', 'cardinfo');
 Route::view('dates', 'dates');
-Route::view('/', 'home');
+Route::view('months', 'months');
 Route::view('/', 'home');
 
 Route::view('dashboard', 'dashboard')

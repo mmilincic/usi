@@ -25,21 +25,19 @@
     <input class="usi-rectangle-1" type="text" />
     <div class="usi-rectangle-98">
         <p class="usi-citizenship">Citizenship</p>
-        <input class="usi-rectangle-88" type="text" />
+        
+        <input class="usi-rectangle-88" type="text" placeholder="Serbian"/>
         <p class="usi-passport-number">Passport Number</p>
-        <p class="usi-">#########</p>
-        <p class="usi-serbian">Serbian</p>
-        <input class="usi-rectangle-86" type="text" />
+        <input class="usi-"type="text" placeholder="#########">
     </div>
-    <p class="usi-">#########</p>
-    <p class="usi-month-of-birth">Month of birth</p>
     <div>
+        <p class="usi-month-of-birth">Month of birth</p>
         <input class="usi-rectangle-84" type="text" placeholder="01">
         <input type="text" class="usi-01" placeholder="01">
         <input type="text" class="usi-2001" placeholder="2001">
     </div>
     <button type="text" class="usi-rectangle-99">Discard</button>
-    <button><p class="usi-save">Save</p></button>
+    <button class="usi-rectangle-86"><p class="usi-save">Save</p></button>
     </button>
 </body>
 
