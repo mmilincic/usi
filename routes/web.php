@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home');
 Route::view('flexible', 'flexible');
-Route::view('/', 'home');
-Route::view('/', 'home');
-Route::view('/', 'home');
+Route::view('settings', 'settings');
+Route::view('cardinfo', 'cardinfo');
+Route::view('dates', 'dates');
 Route::view('/', 'home');
 Route::view('/', 'home');
 

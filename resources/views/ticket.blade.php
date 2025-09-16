@@ -14,31 +14,6 @@
                 </style>
             </head>
             <body>
-        <div class="usi-rectangle-6"></div><div class="usi-rectangle-5">	<p class="usi-enter">Enter</p></div><p class="usi-kuala-lumpur">Kuala Lumpur,
-International Airport</p><p class="usi-malaysia-airways">Malaysia Airways</p><p class="usi-haven-t-purchased-a">Haven’t purchased a ticket with us?
-Input your ticket and let us help you find
-for you.</p><div class="usi-group-23"> 
- <div class="usi-rectangle-75"></div> 
- <p class="usi-if-you-are-traveling">If you are traveling with your infant read here about the Boarding Verification Document (BVD)</p>
-</div><p class="usi-full-legal-name">Full legal name</p><p class="usi-matija-milincic">Matija Milincic</p><p class="usi-citizenship">Citizenship</p><div class="usi-rectangle-88">	<p class="usi-serbian">Serbian</p></div><p class="usi-passport-number">Passport Number</p><p class="usi-">#########</p><div class="usi-rectangle-87"></div><div class="usi-rectangle-87">	<p class="usi-next">Next</p></div><p class="usi-back">Back</p><p class="usi-1st-passenger">1st passenger</p><p class="usi-john">John</p><p class="usi-2nd-passenger">2nd passenger</p><p class="usi-laura">Laura</p><p class="usi-full-legal-name">Full legal name</p><div class="usi-rectangle-1"></div><p class="usi-">#########</p><p class="usi-month-of-birth">Month of birth</p><div class="usi-rectangle-84">	<p class="usi-2001">2001</p></div><p class="usi-01">01</p><div class="usi-rectangle-99"></div>
-            </body>
-        </html>
-        
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="description" content="">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="stylesheet" href="{{ asset ('ticket.css')}}">
-                <title>ticket</title>
-                <style>
-                    body,html{overflow-x:hidden}
-                    .flex-parent{display:flex}
-                </style>
-            </head>
-            <body>
         <div class="usi-rectangle-6"></div><p class="usi-kuala-lumpur">Kuala Lumpur,
 International Airport</p><p class="usi-kuala-lumpur--any">Kuala Lumpur, any</p><p class="usi-kuala-lumpur--any">Kuala Lumpur, any</p><p class="usi-kuala-lumpur--any">Kuala Lumpur, any</p><p class="usi-kuala-lumpur--any">Kuala Lumpur, any</p><p class="usi-kuala-lumpur--any">Kuala Lumpur, any</p><p class="usi-kuala-lumpur">Kuala Lumpur,
 International Airport</p><p class="usi-2024">2024</p><p class="usi-january">January</p><p class="usi-january">January</p><p class="usi-choose-your-age">Choose your
