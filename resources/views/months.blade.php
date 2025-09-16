@@ -22,36 +22,73 @@
 
 <body>
     <div class="usi-rectangle-6"></div>
-    <p class="usi-kuala-lumpur">Kuala Lumpur,
-        International Airport</p>
     <p class="usi-kuala-lumpur--any">Kuala Lumpur, any</p>
-    <div class="usi-rectangle-26"></div>
-    <div class="usi-rectangle-25">
-        <p class="usi-february">February</p>
-        <p class="usi-">$$$</p>
+    <div class="flex-parent" style="gap:10px;flex-direction:column">
+        <div class="flex-parent" style="gap:10px;">
+            <div class="usi-rectangle-30 red">
+                <p class="usi-january">January</p>
+                <p class="usi-">$$$</p>
+            </div>
+            <div class="usi-rectangle-30 red">
+                <p class="usi-february">February</p>
+                <p class="usi-">$$$</p>
+            </div>
+            <div class="usi-rectangle-30 red">
+                <p class="usi-february">March</p>
+                <p class="usi-">$$$</p>
+            </div>
+        </div>
+        <div class="flex-parent" style="gap:10px;">
+            <div class="usi-rectangle-30 green">
+                <p class="usi-may">April</p>
+                <p class="usi-">$</p>
+            </div>
+            <div class="usi-rectangle-30 green">
+                <p class="usi-may ">May</p>
+                <p class="usi-">$</p>
+            </div>
+            <div class="usi-rectangle-30 green">
+                <p class="usi-june ">June</p>
+                <p class="usi-">$</p>
+            </div>
+        </div>
+        <div class="flex-parent" style="gap:10px;">
+            <div class="usi-rectangle-30 yellow">
+                <p class="usi-july ">July</p>
+                <p class="usi-">$$</p>
+            </div>
+            <div class="usi-rectangle-30 green">
+                <p class="usi-january ">August</p>
+                <p class="usi-">$</p>
+            </div>
+            <div class="usi-rectangle-30">
+                <p class="usi-january">September</p>
+                <p class="usi-">X</p>
+            </div>
+        </div>
+        <div class="flex-parent" style="gap:10px;">
+            <div class="usi-rectangle-30">
+                <p class="usi-november">October</p>
+                <p class="usi-x">X</p>
+            </div>
+            <div class="usi-rectangle-30">
+                <p class="usi-november">November</p>
+                <p class="usi-x">X</p>
+            </div>
+            <div class="usi-rectangle-30">
+                <p class="usi-december">December</p>
+                <p class="usi-x">X</p>
+            </div>
+        </div>
     </div>
-    <p class="usi-january">January</p>
-    <p class="usi-">$$$</p>
-    <p class="usi-june">June</p>
-    <p class="usi-">$</p>
-    <p class="usi-may">May</p>
-    <p class="usi-">$</p>
-    <div class="usi-rectangle-30"></div>
-    <div class="usi-rectangle-32"></div>
-    <p class="usi-july">July</p>
-    <p class="usi-">$$</p>
-    <p class="usi-x">X</p>
-    <p class="usi-december">December</p>
-    <p class="usi-november">November</p>
-    <div class="usi-group">
+    <div class="usi-rectangle-99">
+
     </div>
-    <p class="usi-x">X</p>
-    <div class="usi-rectangle-87"></div>
-    <div class="usi-rectangle-17"></div>
-    <div class="usi-rectangle-1"></div>
-    <div class="usi-rectangle-2"></div>
-    <div class="usi-rectangle-7"></div>
-    <div class="usi-rectangle-99"></div>
+    <div class="usi-rectangle-145">
+        <button class="usi-rectangle-13">
+            <p class="usi-more-of-suggested">Return</p>
+        </button>
+    </div>
 </body>
 
 </html>

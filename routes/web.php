@@ -8,7 +8,9 @@ Route::view('settings', 'settings');
 Route::view('cardinfo', 'cardinfo');
 Route::view('dates', 'dates');
 Route::view('months', 'months');
-Route::view('/', 'home');
+Route::view('weeks', 'weeks');
+Route::view('days', 'days');
+Route::view('age', 'age');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
