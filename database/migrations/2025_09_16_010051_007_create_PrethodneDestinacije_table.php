@@ -18,9 +18,8 @@ return new class extends Migration {
                 ->unsigned()
                 ->autoIncrement();
 
-            $table->bigInteger('korisnik_id');
 
-            $table->bigInteger('let_id');
+            $table->bigInteger('let_id')->unsigned();
 
             $table
                 ->foreign('let_id')
@@ -29,6 +28,7 @@ return new class extends Migration {
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
 
+            $table->bigInteger('korisnik_id')->unsigned();
 
             $table
                 ->foreign('korisnik_id')

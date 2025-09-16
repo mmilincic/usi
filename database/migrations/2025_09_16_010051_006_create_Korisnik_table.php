@@ -11,8 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('_korisnik', function (Blueprint $table) {
-            $table->id();
+        Schema::create('Korisnik', function (Blueprint $table) {
+            $table->bigIncrements('korisnik_id');
+            $table->string('puno_ime');
+            $table->string('drzavljanstvo');
+            $table->string('email')->unique();
+            $table->timestamp('datum_rodjenja')->nullable();
+            $table->string('lozinka');
+            $table->rememberToken();
             $table->timestamps();
         });
     }
